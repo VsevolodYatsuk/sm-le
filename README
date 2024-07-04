@@ -14,21 +14,17 @@
 
 ### Требования
 - Python 3.8 или выше
-- Установленные зависимости из файла `requirements.txt`
+- Node.js и npm (Node Package Manager)
+- Установленные зависимости для Python и JavaScript
 
 ### Установка
-1. Клонируйте репозиторий:
-    ```sh
-    git clone https://github.com/your-repo/smile.git
-    cd smile
-    ```
 
-2. Установите зависимости:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-### Запуск приложения
-Для запуска приложения используйте команду:
+#### 1. Клонирование репозитория
+Клонируйте репозиторий:
 ```sh
-python main.py
+git clone https://github.com/your-username/smile.git
+cd smile
+
+
+file:///C:/Users/Vsevolod/Pictures/%D0%A1%D0%BC%D0%B0%D0%B9%D0%BB%D0%BA%D1%80%D1%83%D1%82%D0%B3%D0%B5%D0%B9%D0%BF%D0%B8%D1%81%D1%8C%D0%BA%D0%B0/Allure%20Report.pdf — Общие тестирование проекта sm:)le
+file:///C:/Users/Vsevolod/Pictures/%D0%A1%D0%BC%D0%B0%D0%B9%D0%BB%D0%BA%D1%80%D1%83%D1%82%D0%B3%D0%B5%D0%B9%D0%BF%D0%B8%D1%81%D1%8C%D0%BA%D0%B0/Allure%20Report(bolee%20tichi).pdff — Точное тестирование проекта sm:)le
