@@ -1,0 +1,6 @@
+@smile.server_HostAddress = http://localhost:5055
+
+GET {{smile.server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

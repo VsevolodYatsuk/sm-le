@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\47c41a03db14e4d614e65ea67cfd55c6.jpg",
+      "PackagePath": "staticwebassets\\images\\47c41a03db14e4d614e65ea67cfd55c6.jpg"
+    },
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\57-13.jpg",
+      "PackagePath": "staticwebassets\\images\\57-13.jpg"
+    },
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\6Zfq7DCI0_g.jpg",
+      "PackagePath": "staticwebassets\\images\\6Zfq7DCI0_g.jpg"
+    },
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\DALL·E 2024-05-31 17.48.22 - A black-and-white manga-style image of a 12-year-old boy with light hair sitting on a windowsill in a spaceship cabin. He is wearing old headphones an.webp",
+      "PackagePath": "staticwebassets\\images\\DALL·E 2024-05-31 17.48.22 - A black-and-white manga-style image of a 12-year-old boy with light hair sitting on a windowsill in a spaceship cabin. He is wearing old headphones an.webp"
+    },
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\RIMURI.jpg",
+      "PackagePath": "staticwebassets\\images\\RIMURI.jpg"
+    },
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\b5e43f879bdf3cbaf102831e1bff252b.jpg",
+      "PackagePath": "staticwebassets\\images\\b5e43f879bdf3cbaf102831e1bff252b.jpg"
+    },
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\photo_2024-05-15_13-43-50.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_2024-05-15_13-43-50.jpg"
+    },
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\png-transparent-smiley-computer-icons-smiley-miscellaneous-face-smiley.png",
+      "PackagePath": "staticwebassets\\images\\png-transparent-smiley-computer-icons-smiley-miscellaneous-face-smiley.png"
+    },
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\smile_messenger_logo.png",
+      "PackagePath": "staticwebassets\\images\\smile_messenger_logo.png"
+    },
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\smile_messenger_logo_transparent.png",
+      "PackagePath": "staticwebassets\\images\\smile_messenger_logo_transparent.png"
+    },
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\smile_messenger_logo_transparent_corrected.png",
+      "PackagePath": "staticwebassets\\images\\smile_messenger_logo_transparent_corrected.png"
+    },
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\zahel.png",
+      "PackagePath": "staticwebassets\\images\\zahel.png"
+    },
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\Снимок экрана 2024-05-15 135501.png",
+      "PackagePath": "staticwebassets\\images\\Снимок экрана 2024-05-15 135501.png"
+    },
+    {
+      "Id": "C:\\Smile\\smile.server\\wwwroot\\images\\фыв.jpeg",
+      "PackagePath": "staticwebassets\\images\\фыв.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.smile.server.props",
+      "PackagePath": "build\\smile.server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.smile.server.props",
+      "PackagePath": "buildMultiTargeting\\smile.server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.smile.server.props",
+      "PackagePath": "buildTransitive\\smile.server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.smile.server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
