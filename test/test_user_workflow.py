@@ -84,7 +84,7 @@ def test_register_and_update_profile(driver):
         search_input = wait.until(EC.presence_of_element_located((By.XPATH, "(//input[@placeholder='Поиск по никнейму или телефону...'])[1]")))
         search_input.send_keys("Крутой228")
 
-        # Пытаемся найти элемент и взаимодействовать с ним
+        # Находим элемент и взаимодействовать с ним
         search_result_item = wait.until(EC.element_to_be_clickable((By.XPATH, "(//span[@class='search-result-nickname'])[1]")))
         search_result_item.click()
 
