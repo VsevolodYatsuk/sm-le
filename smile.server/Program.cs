@@ -6,7 +6,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigin",
         builder =>
         {
-            builder.WithOrigins("http://localhost:3000") // Укажите источник вашего фронтенда
+            builder.WithOrigins("http://localhost:3000") 
                    .AllowAnyMethod()
                    .AllowAnyHeader()
                    .AllowCredentials();
@@ -16,12 +16,11 @@ builder.Services.AddCors(options =>
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddLogging(); // Добавляем логирование
-builder.Services.AddSignalR(); // Добавляем SignalR
+builder.Services.AddLogging(); 
+builder.Services.AddSignalR(); 
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -30,14 +29,14 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseStaticFiles(); // Добавлено для обслуживания статических файлов
+app.UseStaticFiles();
 
 app.UseCors("AllowSpecificOrigin");
 
 app.UseAuthorization();
 
 app.MapControllers();
-app.MapHub<ChatHub>("/chathub"); // Маршрут для SignalR хаба
+app.MapHub<ChatHub>("/chathub"); 
 
 app.Run();
 
