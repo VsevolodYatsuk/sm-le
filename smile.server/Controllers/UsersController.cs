@@ -54,7 +54,6 @@ namespace smile.server.Controllers
                 user.Last_Data_Visit_Users = DateTime.UtcNow;
                 user.Status_Profile_Users = true;
 
-                // Insert user and parent
                 await using (var command = new NpgsqlCommand("SELECT insert_user_with_parent(@login_users, @password_users, @nickname_users, @telephone_number_users, @last_data_visit::timestamp with time zone, @status_profile_users)", connection))
                 {
                     command.Parameters.AddWithValue("login_users", NpgsqlTypes.NpgsqlDbType.Varchar, user.Login_Users);
@@ -126,7 +125,6 @@ namespace smile.server.Controllers
                 await using var connection = new NpgsqlConnection(_connectionString);
                 await connection.OpenAsync();
 
-                // Update user profile
                 await using (var command = new NpgsqlCommand("UPDATE users SET nickname_users = @nickname, profile_picture_url = @profile_picture WHERE login_users = @login", connection))
                 {
                     command.Parameters.AddWithValue("nickname", user.Nickname_Users);
